@@ -1,0 +1,8 @@
+# Multiples of 3 and 5a
+
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+- tutti i multipli di 3: la somma delle cifre è un multiplo di 3 (3, 6, 9). Troppo lungo
+- moltiplicare 3 per un X crescente finché si rimane sotto il limite N
