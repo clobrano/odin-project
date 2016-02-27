@@ -15,6 +15,6 @@
 
 .tile {
     float:left;
-    overflow: hidden
-    border: 1px solid gray;
+    overflow: hidden;
+    opacity: 0.0;
 }

@@ -38,7 +38,19 @@ function drawGrid(nx, ny) {
 
     $(".tile").hover(
         function(){
-            $(this).css('background', 'black');
+            var opacity = Number($(this).css('opacity')) + 0.1;
+            if (opacity == 1.0) {
+                opacity = 0.0;
+            }
+            $(this).css({
+                'background': 'black',
+                'opacity': opacity
+            });
+        },
+        function(){});
+
+        $(".tile").click(function() {
+            $(this).css('background', 'none');
         })
 }
 
